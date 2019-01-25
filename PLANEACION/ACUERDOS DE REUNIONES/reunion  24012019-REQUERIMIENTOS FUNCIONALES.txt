@@ -1,0 +1,132 @@
+
+
+
+REQUERIMIENTOS FUNCIONALES 
+
+Los requisitos, en sí son las descripciones de los servicios del
+sistema y las limitaciones que se generan durante el proceso de
+ingeniería de requerimientos.
+
+requerimentos del usuario 
+
+
+requerimientos del sistema 
+
+-EL SISTEMA TENDRA UN NIVEL SEGURIDAD DE INICIO DE SESION A TRAVEZ DE UN LOGIN DE ACCESO  PARA CADA USUARIO
+ 
+*--------------------------------------
+-FORMULARIO frmlogin
+
+*-------------------------------------
+
+*El sistema permitira a cada usuario acceder a su  interfase de trabajo de una vez logueado 
+
+-FORLULARIO frm_perfil_user
+
+USUARIO : 
+    ADMINISTRADOR      
+    CAJERO         
+    ALMACENERO     
+    VENDEDOR    
+    COMPRADOR   
+
+-*EL USUARIO ALMACENERO tendra acceso al sistema y realiza las  operaciones  :
+     
+    /CARDEX/=> CONTROL  DE LAS CANTIDADES DE ENTRADA Y SALIDA DE MATERIALES .Y NUMERO DE MATERIALES
+
+    /LISTA ORDEN DE COMPRA/=> una vez llegada esa informacion el sistema valida los productos entregados por el
+                              proveedor 
+
+   /genera Lista de requerimientos de la cantidad de productos que faltan/=>previo aviso de alerta de stok min sobrepasado
+
+   /venta que requiere servicio de almacen/=> previa guia de remision creada y actualizacion del CARDEX de salida  
+  
+   el sistema le debe permitir incorporar   porductos de acorde a la familia que pertenece en el cardex  
+
+   desde la perspectiva del negocio : 
+   desde la perspectiva del sistema : todo electronico 
+
+-*EL USUARIO COMPRADOR  tendra acceso al sistema y realiza las  operaciones  :
+
+  /ORDEN DE REQUERIMIENTO => LO QUE RECEPCIONA DE ALAMACEN 
+
+   ORDEN DE PEDIDO => ES LO MISMO QUE REQUERIMIENTO PERO INCLUYE COSTOS Y FASE DE APOBACION CON EL ADMINITRADOR 
+   
+  --LO COTIZACION CON LOS PROVEEDORES ES A NIVEL INTERNO 
+
+   ORDE DE COMPRA  =>TRANSFORMA LA  ORDEN DE PEDIDO   EN UNA ORDEN DE COMPRA CUANDO COTIZA CON LOS  LOS PROVEEDORES 
+                     Y SE APROBO 
+
+-*EL USUARIO CAJERO  tendra acceso al sistema y realiza las  operaciones  :
+   
+    -APERTURA Y CIERRA DE CAJA (marca con cuanto ingreso a la caja )
+    -dar salida  a la facturas y boleta de pago  que un cliente genere 
+    -control de cuentas de los clientes (que llevan deudas )
+    -regitrar las operaciones de venta (cobro y vuelto)
+  
+-*EL USUARIO  VENDEDOR   tendra acceso al sistema y realiza las  operaciones  :
+
+    -primer contacto con el cliente 
+    -genera lista de los productos que requiera el cliente 
+
+ 
+
+-*EL USUARIO  ADMINIsTRADOR   tendra acceso al sistema y realiza las  operaciones  :
+  
+   -Realiza consultas en el sistema
+   -tiene permiso a todas la interfaces
+   -genera nuevas cuentas y da acceso a los perfiles 
+   -analisis estadisticos 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*
+
+*
+
