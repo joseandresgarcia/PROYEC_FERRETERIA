@@ -56,28 +56,37 @@ USUARIO :
 
    ORDE DE COMPRA  =>TRANSFORMA LA  ORDEN DE PEDIDO   EN UNA ORDEN DE COMPRA CUANDO COTIZA CON LOS  LOS PROVEEDORES 
                      Y SE APROBO 
+   -registra nuevos proveedores con previa aprovacion del administrador 
 
 -*EL USUARIO CAJERO  tendra acceso al sistema y realiza las  operaciones  :
    
     -APERTURA Y CIERRA DE CAJA (marca con cuanto ingreso a la caja )
     -dar salida  a la facturas y boleta de pago  que un cliente genere 
-    -control de cuentas de los clientes (que llevan deudas )
+    -recepciona la lista de productos e importe a pagar por el encargado de ventas
+    -emite estado de pago al encargado de ventas para la entrega de productos
+    -control de cuentas de los clientes (tipos de pago)
     -regitrar las operaciones de venta (cobro y vuelto)
   
 -*EL USUARIO  VENDEDOR   tendra acceso al sistema y realiza las  operaciones  :
 
-    -primer contacto con el cliente 
-    -genera lista de los productos que requiera el cliente 
+    -primer contacto con el cliente
+    -consulta de productos segun su tipo y caracteristicas , costos segun cantidad (ofertas)
+    -genera lista de los productos que requiera el cliente y la forma de pago
+    -esa informacion se le manda a caja con el importe que debe de cancelar el cliente
+    -el de caja le manda aprobacion del pago
 
  
 
 -*EL USUARIO  ADMINIsTRADOR   tendra acceso al sistema y realiza las  operaciones  :
   
    -Realiza consultas en el sistema
-   -tiene permiso a todas la interfaces
+   -tiene permiso de ver todos los registros de las interfaces
    -genera nuevas cuentas y da acceso a los perfiles 
    -analisis estadisticos 
-    
+   -lista de orden de pedido de pedido a aprobar
+   -modificacion de costos de los productos
+   -aprobar solicitudes de nuevos proveedores
+  
 
 
 
